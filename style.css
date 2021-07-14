@@ -1,0 +1,67 @@
+h1{
+    color:antiquewhite;
+}
+/*
+   *{ border:solid;
+}*/
+
+.site-description{
+    display: flex;
+    flex-direction:column;
+    justify-content:initial
+}
+.grid{
+    display: flex;
+    flex-wrap:initial;
+    justify-content: space-evenly;
+    margin: 0cm;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align:justify;
+    color:mediumseagreen;
+
+}
+.origami {
+    margin: 4px;
+    padding: 3px;
+    background-color:lightgreen;
+}
+.origami :hover img{
+    transform:scale(1.1);
+    opacity:0.33;
+}
+.origami:hover p{
+    opacity:1.8;
+}
+.origami p{
+    position: absolute;
+    bottom:50%;
+
+    opacity:0;
+    color:darkgreen;
+    font-family:cursive;
+    font-size: 30px;
+}
+.origami img{
+    position:relative;
+}
+body{
+    background-color:lightcyan;
+}
+h1{
+color: lightpink;
+background-color: lightsalmon;
+}
+a:link{
+    color:darkcyan;
+}
+a:visited{
+    color:darkgoldenrod;
+}
+a{
+    text-decoration: none;
+}
